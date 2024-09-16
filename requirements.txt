@@ -1,0 +1,10 @@
+ez_setup
+accelerate
+--no-binary=jukebox
+librosa
+numpy
+setuptools
+torch
+tqdm
+wget
+mutagen
