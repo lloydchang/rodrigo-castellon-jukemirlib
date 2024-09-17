@@ -4,7 +4,7 @@ setup(
     name="jukemirlib",
     packages=["jukemirlib"],
     install_requires=[
-        "jukebox @ git+https://github.com/rodrigo-castellon/jukebox.git",
+        "jukebox @ git+https://github.com/lloydchang/rodrigo-castellon-jukebox@lloydchang-patch-1",
         "wget",
         "accelerate",
     ],
