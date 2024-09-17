@@ -100,7 +100,7 @@ def get_checkpoint(local_path, remote_prefix):
 
 
 def load_weights(model, weights_path, device):
-    model_weights = torch.load(weights_path, map_location="cpu")
+    model_weights = torch.load(weights_path, map_location="mps", weights_only=True)
 
     # load_state_dict, basically
     for k in tqdm(model_weights["model"].keys()):
