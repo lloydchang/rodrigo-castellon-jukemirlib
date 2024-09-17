@@ -1,6 +1,6 @@
 ez_setup
 accelerate
---no-binary=jukebox
+git+https://github.com/lloydchang/openai-jukebox@lloydchang-patch-1
 librosa
 numpy
 setuptools
